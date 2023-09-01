@@ -1,0 +1,64 @@
+@import url("../../../assets/fonts/fonts.css");
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 17.8%;
+    height: 100vh;
+    position: fixed;
+    border-right: solid 1px #363636;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 15%;
+    padding: 20px;
+}
+
+.logo a {
+    font-family: "Billabong", Arial;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.link a {
+    padding: 8px;
+    width: 100%;
+}
+
+.link a:hover {
+    border-radius: 10px;
+    background: #333333;
+}
+
+.link a i {
+    font-size: 25px;
+    padding-right: 5px;
+    padding-left: 3px;
+    color: #fafafa;
+}
+
+.more-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15%;
+}
